@@ -47,3 +47,6 @@ The application is accepted if:
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
 [add your answer here]
+A constructor is a method that Python calls when it instantiates an object.
+The name of the constructor is: __init__(). The constructor can accept arguments.
+Python uses it when initializing any instance variables that the object will need when it starts.
