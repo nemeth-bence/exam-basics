@@ -36,13 +36,13 @@ The application is accepted if:
 
 #### Your answer:
 [add your answer here]   
-1:   
-2:   
-3:   
-4:   
-5:   
-6:   
-7:   
+1: Signature. Functions in Python are always starting with a "def", which means define.
+2: The def followed by the name of the function. The best if the name refers, what the function does.   
+3: This function receives one variable, the parameter variable.
+4: Function's body
+5: Local variable  
+6: Return statement   
+7: Return value
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
