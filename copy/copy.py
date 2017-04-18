@@ -6,3 +6,17 @@
 # No destination provided
 # When both arguments provided and the source is a file
 # Read all contents from it and write it to the destination
+
+import sys
+
+def copy(src, dest):
+    lines = []
+    source = open(src, 'r')
+    destination = open(dest, 'w')
+    for line in source.readlines:
+        lines.append(line)
+
+    destination.writelines(lines)
+
+    source.close()
+    destination.close()
