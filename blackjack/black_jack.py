@@ -20,3 +20,13 @@ print(deck)
 # Should print out:
 # Queen Spades
 # 11 cards - 3 Clubs, 3 Diamonds, 3 Hearts, 2 Spades
+
+class Card:
+    def __init__(self, color = '', value = ''):
+        self.color = color
+        self.value = value
+
+class Deck(Card):
+    def __init__(self, number):
+        self.card_list = []
+        self.number = 0
