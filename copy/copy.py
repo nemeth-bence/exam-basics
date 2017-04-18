@@ -25,14 +25,14 @@ if len(sys.argv[0:]) > 1:
     src = sys.argv[0:]
 else:
     print('Source argument is required.')
-    print('python copy.py [source] [destination]')
+    print('copy [source] [destination]')
     exit(0)
 
 if len(sys.argv[1:]) > 1:
     dest = sys.argv[1:]
 else:
     print('Destination argument is required.')
-    print('python copy.py [source] [destination]')
+    print('copy [source] [destination]')
     exit(0)
 
 copy(src, dest)
