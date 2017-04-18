@@ -28,5 +28,9 @@ class Card:
 
 class Deck(Card):
     def __init__(self, number):
+        super().__init__(color, value)
         self.card_list = []
         self.number = 0
+
+    # def fill(self):
+    #     self.card_list.append(Deck)
