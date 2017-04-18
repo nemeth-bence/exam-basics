@@ -8,6 +8,6 @@ def odd_average(list):
         if list[n] % 2 !=0:
             average.append(list[n])
 
-list = [2,4,6,8,10,12,14,16,18,20]
+list_of_num = [2,4,6,8,10,12,14,16,18,20]
 
-odd_average(list)
+odd_average(list_of_num)
