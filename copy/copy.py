@@ -20,3 +20,10 @@ def copy(src, dest):
 
     source.close()
     destination.close()
+
+if len(sys.argv[0:]) > 1:
+    src = sys.argv[0:]
+else:
+    print('Source argument is required.')
+    print('python copy.py [source] [destination]')
+    exit(0)
