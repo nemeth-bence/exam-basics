@@ -27,3 +27,12 @@ else:
     print('Source argument is required.')
     print('python copy.py [source] [destination]')
     exit(0)
+
+if len(sys.argv[1:]) > 1:
+    dest = sys.argv[1:]
+else:
+    print('Destination argument is required.')
+    print('python copy.py [source] [destination]')
+    exit(0)
+
+copy(src, dest)
